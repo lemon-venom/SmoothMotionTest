@@ -23,7 +23,7 @@ public:
 	double	getFrameTime();
 	double	getTotalTime();
 
-	const double fixedTimeStep = 0.01;
+	const double fixedTimeStep = 1.0 / 100.0;
 
 	double timeAccumulator = 0.0;
 

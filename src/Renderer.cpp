@@ -475,11 +475,9 @@ void Renderer::sceneComplete()
 		glBindVertexArray(NULL);
 	}
 
-	glFinish();
+	SDL_GL_SwapWindow(window_);
 
 	glFlush();
-
-	SDL_GL_SwapWindow(window_);
 }
 
 
